@@ -3,6 +3,7 @@
 
 # Misc
 /public
+.DS_Store
 
 # Sass
 .sass-cache/
