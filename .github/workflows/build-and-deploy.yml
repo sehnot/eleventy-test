@@ -37,18 +37,25 @@ jobs:
           path: 'public'
 
   deploy:
+
     needs: build
+
     permissions:
       pages: write
       id-token: write
+
     concurrency:
       group: pages
       cancel-in-progress: true
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
+
     steps:
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
