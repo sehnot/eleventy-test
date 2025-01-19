@@ -6,4 +6,4 @@ title: 'My Eleventy Website'
 
 # Hello World!
 
-This test deploys to [sehnot.github.io/eleventy-test](https://sehnot.github.io/eleventy-test/).
+This test deploys directly to [sehnot.github.io/eleventy-test](https://sehnot.github.io/eleventy-test/).
